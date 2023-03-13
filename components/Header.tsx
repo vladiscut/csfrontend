@@ -57,7 +57,7 @@ function Header() {
           />
         )
           : (
-            <UserIcon className="headerIcon" onClick={() => signIn()} />
+            <UserIcon className="headerIcon" /> //onClick={() => signIn()}
           )}
       </div>
     </header>
