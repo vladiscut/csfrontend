@@ -33,7 +33,7 @@ function CheckoutProduct({ id, items }: Props) {
         <div className="flex flex-col gap-x-4 border-b border-gray-300 pb-5 lg:flex-row lg:items-center">
             <div className="relative h-44 w-44">
                 <Image
-                    src={items[0].product_image[0].image}
+                    src={items[0].product_image[0]?.image}
                     alt='productImage'
                     fill
                     style={{ objectFit: "contain" }}
