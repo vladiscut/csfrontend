@@ -134,7 +134,7 @@ function Landing({ categories }: Props) {
                     <Plx className="MyAwesomeParallax" parallaxData={parallaxData2}>
                         <div className='relative h-[125px] w-[125px] transiton-all duration-500
                     lg:h-[125px] lg:w-[125px] xl:h-[125px] xl:w-[125px]'>
-                            <Image alt='img' className="absolute" src="/landingimgs/hoodie.png" fill />
+                            <Image alt='img' className="absolute" src="/landingImgs/hoodie.png" fill />
                         </div>
                     </Plx>
                 </div>
