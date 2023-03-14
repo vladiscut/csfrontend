@@ -41,7 +41,6 @@ const ProductDetails = (product) => {
 
     return (
         <>
-
             <BreadCrumbs breadCrumbs={breadCrumbs} />
             <section className="bg-white py-10">
                 <div className="container max-w-screen-xl mx-auto px-4">
@@ -119,7 +118,7 @@ const ProductDetails = (product) => {
                             <p className="mb-4 text-gray-500">{product.product?.description}</p>
 
                             <div className="flex flex-wrap gap-2 mb-5">
-                                <div className='flex h-16 w-16 flex-shrink-0 cursor-pointer items-center 
+                                <div className='m-auto flex h-16 w-16 flex-shrink-0 cursor-pointer items-center 
                                             justify-center rounded-full bg-gradient-to-r from-red-900
                                             to-orange-600 md:h-[70px] md:w-[70px]' onClick={addItemToBasket}>
                                     <ShoppingCartIcon className='h-8 w-8 text-white' />

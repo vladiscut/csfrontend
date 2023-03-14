@@ -2,7 +2,7 @@
 module.exports = {
   reactStrictMode: true,
   images:{
-    domains:["sotencgm.beget.tech"]
+    domains:["sotencgm.beget.tech"],
   },
   experimental: {
     newNextLinkBehavior: false,
