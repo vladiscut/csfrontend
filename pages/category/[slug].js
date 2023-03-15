@@ -26,10 +26,10 @@ function CategoryPage({ products, categories, mt }) {
 
 export async function getServerSideProps({ params }) {
 
-    const res = await fetch(`http://sotencgm.beget.tech/api/category/${params.slug}`);
+    const res = await fetch(`https://ccrossale.ru/api/category/${params.slug}`);
     const products = await res.json();
 
-    const ress = await fetch("http://sotencgm.beget.tech/api/category/");
+    const ress = await fetch("https://ccrossale.ru/api/category/");
     const categories = await ress.json();
 
 

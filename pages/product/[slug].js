@@ -52,10 +52,10 @@ function Product({ product }) {
 
 export async function getServerSideProps({ params }) {
 
-    const res = await fetch(`http://sotencgm.beget.tech/api/${params.slug}`);
+    const res = await fetch(`https://ccrossale.ru/api/${params.slug}`);
     const product = await res.json();
 
-    const ress = await fetch("http://sotencgm.beget.tech/api/category/");
+    const ress = await fetch("https://ccrossale.ru/api/category/");
     const categories = await ress.json();
 
 

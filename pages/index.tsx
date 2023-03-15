@@ -45,10 +45,10 @@ export default Home;
 
 // Backend
 export const getServerSideProps: GetServerSideProps<Props> = async ()=>{
-  const res = await fetch("http://sotencgm.beget.tech/api/");
+  const res = await fetch("https://ccrossale.ru/api/");
   const products = await res.json();
 
-  const ress = await fetch("http://sotencgm.beget.tech/api/category/");
+  const ress = await fetch("https://ccrossale.ru/api/category/");
   const categories = await ress.json();
 
   return{
