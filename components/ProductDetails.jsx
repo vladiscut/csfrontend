@@ -137,12 +137,12 @@ const ProductDetails = (product) => {
                                 </li>
                                 <li className="mb-1">
                                     {" "}
-                                    <b className="font-medium w-36 inline-block">Категория:</b>
+                                    <b className="font-medium inline-block">Категория:</b>
                                     <span className="text-gray-500">{product.product?.category.name}</span>
                                 </li>
                                 <li className="mb-1">
                                     {" "}
-                                    <b className="font-medium w-36 inline-block">
+                                    <b className="font-medium inline-block">
                                         Описание:
                                     </b>
                                     <span className="text-gray-500">{product.product?.description}</span>
